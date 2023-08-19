@@ -42,7 +42,6 @@ const FollowMouse = () => {
         height: 40,
         transform: `translate(${position.x}px, ${position.y}px)`
       }} />
-      <h1>Mouse follower in React</h1>
       <button onClick={handleChangeMouseFollower}>
         {enabled ? 'Desactivar mouse follower' : 'Activar mouse follower'}
       </button>
